@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: erigert3/random-number-generator:newest
+        image: erigert/random-number-generator:newest
         imagePullPolicy: Always
         securityContext:
           allowPrivilegeEscalation: false
